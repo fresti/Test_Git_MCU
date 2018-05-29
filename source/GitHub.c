@@ -82,12 +82,7 @@ int main(void) {
 			i = 0;
 		}
 
-		if(j > 200){
-			printf("j = %d\n", j);
-			j = 0;
-		}
-
-		int f = 0;
+		printf("TU es dans une nouvelle branch ! \n");
 	}
 
 }
