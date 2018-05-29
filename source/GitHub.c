@@ -83,6 +83,7 @@ int main(void) {
 		}
 
 		printf("TU es dans une nouvelle branch ! \n");
+		printf("Test rebase\n");
 	}
 
 }
