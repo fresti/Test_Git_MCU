@@ -70,14 +70,24 @@ int main(void) {
 	BOARD_I2C_ConfigurePins();
 
 	printf("Televersement effectue\n");
-	int i = 0;
+	printf("Here is a new branch\n");
+	int i = 0, j = 0;
 
 	while(1){
 		i++;
+		j++;
 
 		if(i > 100){
 			printf("i = %d\n", i);
+			i = 0;
 		}
+
+		if(j > 200){
+			printf("j = %d\n", j);
+			j = 0;
+		}
+
+		int f = 0;
 	}
 
 }
